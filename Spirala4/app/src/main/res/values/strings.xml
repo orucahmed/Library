@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Spirala4</string>
+
+
+    <string name="button_nadji_sliku">"Nadji sliku"</string>
+    <string name="edit_text_naziv_knjige">Naziv knjige</string>
+    <string name="edit_text_ime_autora">Ime autora</string>
+    <string name="edit_text_pretraga">Pretraga</string>
+    <string name="button_upisi_knjigu">Upisi knjigu</string>
+    <string name="button_ponisti">Ponisti</string>
+    <string name="button_povratak">Povratak</string>
+    <string name="button_kategorije">Kategorije</string>
+    <string name="button_autori">Autori</string>
+    <string name="button_pretraga">Pretraga</string>
+    <string name="button_dodaj_kategoriju">Dodaj kategoriju</string>
+    <string name="button_dodaj_knjigu">Dodaj knjigu</string>
+    <string name="button_dodaj_autora">Dodaj autora</string>
+    <string name="edit_text_datum_objave">Datum objave</string>
+    <string name="edit_text_broj_stranica">Broj stranica</string>
+    <string name="edit_text_opis">Opis</string>
+    <string name="button_dodaj_knjigu_online">Dodaj knjigu online</string>
+    <string name="edit_text_tekst_pretrage">Tekst pretrage</string>
+    <string name="button_posalji">Posalji</string>
+    <string name="button_preporuci">Preporuci knjigu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

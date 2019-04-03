@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ba.unsa.etf.rma.oruc_ahmed.spirala1.DodavanjeKnjigeAkt"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp">
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/naslovnaStr"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/dNadjiSliku"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nadji sliku" />
+
+
+
+    <EditText
+        android:id="@+id/nazivKnjige"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="Naziv Knjige"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/imeAutora"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ime Autora"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+
+
+
+
+    <Spinner
+        android:id="@+id/sKategorijaKnjige"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/dUpisiKnjigu"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upisi knjigu" />
+
+        <Button
+            android:id="@+id/dPonisti"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ponisti" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

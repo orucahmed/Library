@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spirala4</string>
+
+
+    <string name="button_nadji_sliku">"Find photo"</string>
+    <string name="edit_text_naziv_knjige">Book name</string>
+    <string name="edit_text_ime_autora">Author name</string>
+    <string name="edit_text_pretraga">Search</string>
+    <string name="button_upisi_knjigu">Enroll book</string>
+    <string name="button_ponisti">Cancel</string>
+    <string name="button_povratak">Back</string>
+    <string name="button_kategorije">Categories</string>
+    <string name="button_autori">Authors</string>
+    <string name="button_pretraga">Search</string>
+    <string name="button_dodaj_kategoriju">Add category</string>
+    <string name="button_dodaj_knjigu">Add book</string>
+    <string name="button_dodaj_autora">Add author</string>
+    <string name="edit_text_datum_objave">Release date</string>
+    <string name="edit_text_broj_stranica">Number of pages</string>
+    <string name="edit_text_opis">Description</string>
+    <string name="button_dodaj_knjigu_online">Add book online</string>
+    <string name="edit_text_tekst_pretrage">Search text</string>
+    <string name="button_posalji">Send</string>
+    <string name="button_preporuci">Recommend a book</string>
+
+</resources>

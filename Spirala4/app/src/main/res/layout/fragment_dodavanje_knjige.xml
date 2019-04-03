@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DodavanjeKnjigeFragment"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp">
+
+
+
+        <ImageView
+            android:id="@+id/naslovnaStr"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <Button
+            android:id="@+id/dNadjiSliku"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_nadji_sliku" />
+
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id"
+        android:layout_gravity="center"
+        android:hint="Id"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+
+    <EditText
+        android:id="@+id/nazivKnjige"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_naziv_knjige"
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/imeAutora"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:hint="@string/edit_text_ime_autora"
+            android:inputType="text"
+            android:imeOptions="actionDone" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dodajAutora"
+            android:layout_gravity="center"
+            android:text="@string/button_dodaj_autora"/>
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/datumObjave"
+        android:hint="@string/edit_text_datum_objave"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brojStranica"
+        android:layout_gravity="center"
+        android:hint="@string/edit_text_broj_stranica"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opis"
+        android:layout_gravity="center"
+        android:hint="@string/edit_text_opis"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+
+    <Spinner
+        android:id="@+id/sKategorijaKnjige"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/dUpisiKnjigu"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_upisi_knjigu" />
+
+        <Button
+            android:id="@+id/dPonisti"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_ponisti" />
+
+    </LinearLayout>
+
+</LinearLayout>

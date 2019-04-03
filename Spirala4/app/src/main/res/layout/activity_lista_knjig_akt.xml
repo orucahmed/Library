@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ba.unsa.etf.rma.oruc_ahmed.spirala1.ListaKnjigAkt">
+
+    <ListView
+        android:id="@+id/listaKnjiga"
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:layout_above="@id/dPovratak"></ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/listaKnjiga"
+        android:text="Povratak"
+        android:id="@+id/dPovratak"/>
+
+</LinearLayout>
